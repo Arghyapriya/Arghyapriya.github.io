@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arghyapriya Sarkar | Portfolio</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;line-height:1.6;background:#f5f7fb;color:#222}
+header{background:#111827;color:#fff;padding:20px 8%;position:sticky;top:0;z-index:10}
+nav{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap}
+nav h2{font-size:22px} nav ul{list-style:none;display:flex;gap:22px}
+nav a{color:#fff;text-decoration:none} nav a:hover{color:#60a5fa}
+.hero{min-height:88vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:50px 8%;background:linear-gradient(135deg,#e0f2fe,#eef2ff)}
+.hero h1{font-size:52px;margin-bottom:15px}.hero h1 span{color:#2563eb}
+.hero p{font-size:19px;color:#4b5563;max-width:700px;margin:auto}
+.buttons{margin-top:28px}.btn{display:inline-block;padding:12px 22px;margin:6px;border-radius:8px;text-decoration:none;font-weight:bold;background:#2563eb;color:#fff}.btn:hover{background:#1d4ed8}
+section{padding:75px 8%}section h2{text-align:center;font-size:34px;margin-bottom:35px;color:#111827}
+.about{max-width:850px;margin:auto;text-align:center;font-size:18px;color:#4b5563}
+.skills{display:flex;justify-content:center;flex-wrap:wrap;gap:14px;max-width:900px;margin:auto}
+.skill{background:#fff;padding:13px 20px;border-radius:10px;box-shadow:0 4px 12px #00000014;font-weight:bold}
+.projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}
+.card{background:#fff;padding:25px;border-radius:14px;box-shadow:0 5px 18px #00000014}.card h3{margin-bottom:10px;color:#1d4ed8}.card p{color:#4b5563;margin-bottom:16px}.card a{color:#2563eb;text-decoration:none;font-weight:bold}
+.contact{text-align:center;background:#111827;color:#fff}.contact h2{color:#fff}.contact p{margin:8px 0;color:#d1d5db}.contact a{color:#60a5fa}
+footer{text-align:center;padding:18px;background:#030712;color:#9ca3af}
+@media(max-width:650px){nav{flex-direction:column;gap:14px}nav ul{justify-content:center;flex-wrap:wrap;gap:12px}.hero h1{font-size:38px}section{padding:55px 6%}}
+</style>
+</head>
+<body>
+<header>
+<nav>
+<h2>Arghyapriya Sarkar</h2>
+<ul>
+<li><a href="#home">Home</a></li><li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+<div>
+<h1>Hello, I'm <span>Arghyapriya</span></h1>
+<p>A student exploring programming, GitHub, collaborative development, and problem-solving through hands-on activities.</p>
+<div class="buttons">
+<a class="btn" href="https://github.com/Arghyapriya" target="_blank">Visit GitHub</a>
+<a class="btn" href="#projects">View Activities</a>
+</div>
+</div>
+</section>
+
+<section id="about">
+<h2>About Me</h2>
+<div class="about">
+<p>I am a student interested in programming and technology. My learning activities include setting up development tools, working with Git and GitHub, collaborating with GitLens and Live Share, and practicing coding through LeetCode.</p>
+</div>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="skills">
+<div class="skill">Java</div>
+<div class="skill">HTML</div>
+<div class="skill">C Programming</div>
+<div class="skill">SQL</div>
+<div class="skill">Git</div>
+<div class="skill">GitHub</div>
+</div>
+</section>
+
+<section id="projects">
+<h2>Activities & Repositories</h2>
+<div class="projects">
+<div class="card"><h3>Activity 1 — VS Code Setup</h3><p>Set up and explored VS Code as part of the technical learning activities.</p></div>
+<div class="card"><h3>Activity 2 — Git & GitHub Setup</h3><p>Learned Git and GitHub workflows and created the Hello World repository.</p>
+<a href="https://github.com/Arghyapriya/Hello-World" target="_blank">View Hello World Repository →</a></div>
+<div class="card"><h3>Activity 3 — GitLens & Live Share</h3><p>Explored GitLens and Live Share for GitHub-based development and collaboration.</p></div>
+<div class="card"><h3>Activity 4 — LeetCode Practice Repository</h3><p>Created a repository to organize and maintain LeetCode practice solutions.</p>
+<a href="https://github.com/Arghyapriya/leetcode-solutions" target="_blank">View LeetCode Repository →</a></div>
+</div>
+</section>
+
+<section class="contact" id="contact">
+<h2>Let's Connect</h2>
+<p>GitHub: <a href="https://github.com/Arghyapriya" target="_blank">github.com/Arghyapriya</a></p>
+</section>
+</main>
+
+<footer><p>© 2026 Arghyapriya Sarkar. Built with HTML &amp; CSS.</p></footer>
+</body>
+</html>
